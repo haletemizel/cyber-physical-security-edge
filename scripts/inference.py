@@ -1,8 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
-# Eğittiğimiz modeli yüklüyoruz
-model = YOLO("yolov8n.pt")
+# Eğittiğimiz YOLOv11 modelini yüklüyoruz
+model = YOLO("yolo11n.pt")
 
 # Kamerayı başlatıyoruz (0: Varsayılan bilgisayar kamerası)
 cap = cv2.VideoCapture(0)
